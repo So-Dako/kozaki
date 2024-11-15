@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Козаки</title>
+<style>
+.container {
+  width: 70%;
+  margin: auto;
+  padding: 20px;
+}
+
+.section {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.section p {
+  font-size: 16px;
+  color: #555;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.col {
+  width: 30%;
+  padding: 15px;
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.col img {
+  width: 80%;
+     height: 
+  padding-top: 80%;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  border: 2px solid red;
+}
+    
+    .col .small-images img {
+        width: 15%;
+        height:
+        padding-top: 15%;
+        background-size: cover;
+        background-position: center;
+        border-radius: 50%;
+        margin: 5px;
+        border: none;
+}
+
+.col h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.col p {
+  font-size: 14px;
+  color: #666;
+}
+
+
+@media only screen and (max-width: 480px) {
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .row {
+    flex-direction: column;
+      align-items: center;
+  }
+
+  .col {
+    width: 90%; 
+    flex: 0 0 100%;
+    margin-bottom: 10px;
+  }
+}
+
+</style>
+</head>
+<body>
+    
+    <div style="text-align: center; padding: 20px;">
+  <a href="/html/index2.html">
+    <button style="padding: 10px 20px; font-size: 16px; cursor: pointer; background-color: darkred; color: white; border: none; border-radius: 5px;">Перейти на сторінку 2</button>
+  </a>
+</div>
+
+<section class="section">
+  <div class="container">
+    <h2>НАША КОМАНДА</h2>
+    <p>Ми три козаки із Запорізької Січі.
+Багато мандруємо по світу, спілкуємось з людьми з різних країн та епох. Навіть зустрічаємось з інопланетянами</p>
+
+    <div class="row">
+      <div class="col">
+        <img src="../image/1.png" alt="Око">
+        <h3>Козак Око</h3>
+        <p>Маленький козак, але бадьорий та войовничий</p>
+          <div class="small-images">
+          <img src="../image/icons8-google-50.png" alt="google">
+          <img src="../image/icons8-facebook-50.png" alt="facebook">
+          <img src="../image/icons8-facebook-50.png" alt="facebook">
+        </div>
+      </div>
+      <div class="col" style="background-color: gainsboro">
+        <img src="../image/%D0%9A%D0%BE%D0%B7%D0%B0%D0%BA_%D0%93%D1%80%D0%B0%D0%B9%20(1).png" alt="Грай">
+        <h3>Козак Грай</h3>
+        <p>Отаман нашої команди.
+Спокійний та кмітливий козак</p>
+          <div class="small-images">
+          <img src="../image/icons8-google-50.png" alt="google">
+          <img src="../image/icons8-facebook-50.png" alt="facebook">
+          <img src="../image/icons8-facebook-50.png" alt="facebook">
+        </div>
+      </div>
+      <div class="col">
+        <img src="../image/%D1%82%D1%83%D1%80-%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F2.jpg" alt="Тур">
+        <h3>Козак Тур</h3>
+        <p>Здоровий та сильний козак. Часто буває сором'язливим</p>
+          <div class="small-images">
+          <img src="../image/icons8-google-50.png" alt="google">
+          <img src="../image/icons8-facebook-50.png" alt="facebook">
+          <img src="../image/icons8-facebook-50.png" alt="facebook">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
